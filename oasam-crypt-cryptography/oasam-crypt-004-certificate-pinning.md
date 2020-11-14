@@ -2,7 +2,7 @@
 #OASAM-CRYPT-004: Certificate Pinning
 
 ##Description:
-If the application exchanges information through SSL and does not trust certificate authorities, there is no reason to use this trustworthiness because they do not provide security to the application communications. Moreover, if any of these certificate authorities is compromised, application users would not be vulnerable.
+If the application exchanges information through SSL and does not trust certificate authorities, there is no reason to use this trustworthiness because they do not provide security to the application communications. Moreover, if any of these certificate authorities is compromised, application users would be vulnerable.
 
 ##Risks:
 If a certificate authority is compromised, sending fraudulent certificates could have an impact on the confidentiality of the transmitted information, due to the fact that the application would trust these certificates because they are provided by a known certificate authority.
