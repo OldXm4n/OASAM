@@ -2,7 +2,7 @@
 #OASAM-UIR-003: Service Hijacking
 
 ##Description:
-By taking advantage of this vulnerability,  a malicious Activity is launched instead of the expected one, so the user will be in a wrong application without being aware. This happens when the charge of an Activity depends on an implicit Intent. The attacker registers a more accurate Intent Filter and controls it.  This vulnerability is more persistent due to the fact that it is transparent to the user because the services do not include graphic interface for it.
+By taking advantage of this vulnerability,  a malicious Service is launched instead of the expected one, so the user will be in a wrong application without being aware. This happens when the charge of a Service depends on an implicit Intent. The attacker registers a more accurate Intent Filter and controls it.  This vulnerability is more persistent due to the fact that it is transparent to the user because the services do not include graphic interface for it.
 
 ##Risks:
 The presence of this vulnerability allows leak of the information processed by the involved Service.
