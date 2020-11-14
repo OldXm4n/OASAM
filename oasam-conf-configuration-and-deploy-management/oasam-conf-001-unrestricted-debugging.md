@@ -2,7 +2,7 @@
 #OASAM-CONF-001: Unrestricted debugging
 
 ##Description:
-It is usual to enable debugging mode while developing an application in order to extract information about its operation. However, this mode must be disabled while developing applications.
+It is usual to enable debugging mode while developing an application in order to extract information about its operation. However, this mode must be disabled when deploying applications.
 
 
 ##Risks:
